@@ -75,11 +75,5 @@ int main(){
 MotorVehicle MotorVehicle1("Ford" , "Gasolina", 2012, "celeste", 4);
 cout<<"Su modelo sigue laas siguientes cualidades: ";
 MotorVehicle1.displayCarDetails();
-MotorVehicle1.setmake("ford");
-MotorVehicle1.setfuelType("Gasolina");
-MotorVehicle1.setyearOfManufacture(2012);
-MotorVehicle1.setcolor("Celeste");
-MotorVehicle1.setengineCapacity(4);
-MotorVehicle1.displayCarDetails();
-    
+return 0;
 };
